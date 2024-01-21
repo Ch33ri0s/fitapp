@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default defineNitroConfig({
   devtools: { enabled: true },
   devServer: {
     host: "192.168.50.92",
     port: 3000
   },
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' },
+    // pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       titleTemplate: 'Fitness App',
       meta: [

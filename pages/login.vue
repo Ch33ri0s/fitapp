@@ -82,7 +82,7 @@ const signIn = async () => {
             password: signInPassword.value,
         });
         if (error) throw error;
-        navigateTo('/');
+        navigateTo('/introscreen');
         alert('Success! You are logged in.');
     } catch (error) {
         const authError = error as AuthError;
