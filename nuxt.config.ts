@@ -1,8 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNitroConfig({
+export default defineNuxtConfig({
   devtools: { enabled: true },
   devServer: {
-    host: "192.168.50.92",
     port: 3000
   },
   app: {
